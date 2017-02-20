@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Router, Route, hashHistory , Link } from 'react-router';
 // import three from './three';
 // import two from './two';
-import NavLink from './NavLink';
+import NavLink from './../component/NavLink';
 
 const Input = styled.input`
   font-size: 1.25em;
