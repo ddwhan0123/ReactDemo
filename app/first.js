@@ -29,8 +29,8 @@ export default React.createClass({
           {/* <Input placeholder="@mxstbr" type="text" />
           <H1>i am first h1</H1> */}
            <ul role="nav">
-             <NavLink to="/three">three</NavLink><br></br>
-             <NavLink to="/two">two</NavLink>
+             <NavLink to="/Three">Three</NavLink><br></br>
+             <NavLink to="/Two">Two</NavLink>
            </ul>
            {this.props.children}
       </div>

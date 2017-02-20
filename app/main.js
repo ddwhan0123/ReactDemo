@@ -1,17 +1,19 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { Router , Route , hashHistory , Link } from 'react-router';
-import first from './first';
-import three from './three';
-import two from './two';
+import First from './First';
+import Three from './Three';
+import Two from './Two';
+import Four from './Four';
 
 
 
 render((
   <Router history={hashHistory}>
-    <Route path="/" component={first}>
+    <Route path="/" component={First}>
     </Route>
-    <Route path="/three" component={three}/>
-    <Route path="/two" component={two}/>
+    <Route path="/Three" component={Three}/>
+    <Route path="/Three/:name" component={Four}/>
+    <Route path="/Two" component={Two}/>
   </Router>
 ), document.getElementById('app'))
