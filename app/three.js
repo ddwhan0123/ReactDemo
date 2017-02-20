@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import NavLink from './../component/NavLink';
+import NavLink from './../component/nav/NavLink';
 
 const H2 = styled.h2`
   color: #eee
