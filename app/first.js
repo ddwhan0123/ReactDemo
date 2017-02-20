@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Router, Route, hashHistory } from 'react-router';
+import { Router, Route, hashHistory , Link } from 'react-router';
+// import three from './three';
+// import two from './two';
+import NavLink from './NavLink';
 
 const Input = styled.input`
   font-size: 1.25em;
@@ -23,9 +26,13 @@ export default React.createClass({
   render() {
     return (
       <div>
-          <Input placeholder="@mxstbr" type="text" />
-          <H1>i am first h1</H1>
-          {this.props.children}
+          {/* <Input placeholder="@mxstbr" type="text" />
+          <H1>i am first h1</H1> */}
+           <ul role="nav">
+             <NavLink to="/three">three</NavLink><br></br>
+             <NavLink to="/two">two</NavLink>
+           </ul>
+           {this.props.children}
       </div>
     );
   }
