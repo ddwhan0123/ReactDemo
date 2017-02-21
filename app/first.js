@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Router, Route, hashHistory , Link } from 'react-router';
-// import three from './three';
-// import two from './two';
 import NavLink from './../component/nav/NavLink';
 
 const Input = styled.input`
