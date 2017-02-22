@@ -15,6 +15,7 @@ export default React.createClass({
             <NavLink to="/Three/haha">haha</NavLink><br></br>
             <NavLink to="/Three/heihei">heihei</NavLink>
           </ul>
+           {this.props.children}
       </div>
     )
   }

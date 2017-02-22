@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Router, Route, hashHistory , Link } from 'react-router';
 import NavLink from './../component/nav/NavLink';
+import Six from './Six';
 
 const Input = styled.input`
   font-size: 1.25em;
@@ -30,7 +31,7 @@ export default React.createClass({
              <NavLink to="/Three">Three</NavLink><br></br>
              <NavLink to="/Two">Two</NavLink>
            </ul>
-           {this.props.children}
+           {this.props.children || <Six/>}
       </div>
     );
   }
