@@ -29,7 +29,7 @@ export default React.createClass({
           <H1>i am first h1</H1> */}
            <ul role="nav">
              <NavLink to="/Three">Three</NavLink><br></br>
-             <NavLink to="/Two">Two</NavLink>
+             <NavLink to="/Two">Two</NavLink><br></br>
            </ul>
            {this.props.children || <Six/>}
       </div>
